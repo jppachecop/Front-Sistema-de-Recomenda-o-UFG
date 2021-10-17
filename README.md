@@ -1,11 +1,19 @@
-## Available Scripts
+## Front-end do Sistema de Recomendação
 
-In the project directory, you can run:
+Projeto desenvolvido para o trabalho de conclusão de curso com o tema "Estudo e Prototipagem de Engenhos de Recomendação para e-commerce"
 
-### `yarn start`
+## Scripts para rodar o projeto
 
-Runs the app in the development mode.<br /> Open
-[http://localhost:3000](http://localhost:3000) to view it in the browser.
+Instalação das dependências do projeto
 
-The page will reload if you make edits.<br /> You will also see any lint errors
-in the console.
+```
+ yarn
+```
+
+Para iniciar a aplicação
+
+```
+ yarn start
+```
+
+Abra a aplicação em [http://localhost:3000](http://localhost:3000) para vê-la no browser.
