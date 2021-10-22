@@ -1,4 +1,5 @@
 export interface CardInterface {
+    asin: string
     image: string
     title: string
     price: number

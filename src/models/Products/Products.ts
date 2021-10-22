@@ -3,7 +3,7 @@ export interface ProductsInterface {
     description?: string
     title: string
     promotion?: boolean
-    promotionDiscount?: number
+    promotionDiscount: number
     price: number
     imUrl: string
 }

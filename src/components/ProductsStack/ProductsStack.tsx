@@ -1,5 +1,5 @@
-import { Divider, Grid, Stack, Text } from '@chakra-ui/react'
 import React from 'react'
+import { Divider, Grid, Stack, Text } from '@chakra-ui/react'
 import { ProductsStackInterface } from '../../models/Products/ProductsStack'
 import { Card } from '../Card/Card'
 
@@ -20,12 +20,13 @@ export const ProductsStack = ({
                 {products.map((item) => (
                     <Card
                         key={item.asin}
+                        asin={item.asin}
                         image={item.imUrl}
                         title={item.title}
                         price={item.price}
                         promotion={item.promotion}
                         discount={item.promotionDiscount}
-                        rating={Math.floor(Math.random() * 3) + 1}
+                        rating={Math.floor(Math.random() * (5 - 1 + 1)) + 1}
                         reviewCount={Math.floor(Math.random() * 50) + 1}
                     />
                 ))}

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Box, Grid } from '@chakra-ui/react'
 import { ColorModeSwitcher } from '../../ColorModeSwitcher'
-import { NavBar } from '../../components/NavBar/NavBar'
 import { api } from '../../services/api'
 import { ProductsInterface } from '../../models/Products/Products'
 import { ProductsStack } from '../../components/ProductsStack/ProductsStack'
@@ -29,7 +28,6 @@ export const Home = () => {
 
     return (
         <Box textAlign="center" fontSize="xl">
-            <NavBar />
             <Grid>
                 <ColorModeSwitcher justifySelf="flex-end" />
                 <ProductsStack
