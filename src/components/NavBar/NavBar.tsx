@@ -95,9 +95,9 @@ export const NavBar = () => {
                                     </Center>
                                     <br />
                                     <MenuDivider />
-                                    <MenuItem>User 1</MenuItem>
-                                    <MenuItem>User 2</MenuItem>
-                                    <MenuItem>User 3</MenuItem>
+                                    <MenuItem>João</MenuItem>
+                                    <MenuItem>Paulo</MenuItem>
+                                    <MenuItem>Felipe</MenuItem>
                                 </MenuList>
                             </Menu>
                         </Stack>

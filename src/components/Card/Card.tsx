@@ -15,7 +15,7 @@ export const Card = ({
     return (
         <Box borderWidth="1px" borderRadius="lg" overflow="hidden">
             <Box display="flex" justifyContent="center">
-                <Image src={image} alt={image} mt="6" />
+                <Image src={image} alt={image} mt="6" h="80" />
             </Box>
 
             <Box p="6">
@@ -31,7 +31,12 @@ export const Card = ({
                     </Box>
                 )}
 
-                <Box mt="1" fontWeight="semibold" as="h4" lineHeight="tall">
+                <Box
+                    mt="1"
+                    fontWeight="semibold"
+                    fontSize="18px"
+                    lineHeight="tall"
+                >
                     {title}
                 </Box>
 
@@ -49,19 +54,23 @@ export const Card = ({
                         <Text>U$ {price}</Text>
                     )}
                 </Box>
-
-                <Box display="flex" mt="2" alignItems="center">
-                    {Array(5)
-                        .fill('')
-                        .map((_, i) => (
-                            <StarIcon
-                                key={i}
-                                color={i < rating ? 'teal.500' : 'gray.300'}
-                            />
-                        ))}
-                    <Box as="span" ml="2" color="gray.600" fontSize="sm">
-                        {reviewCount} avaliações
-                    </Box>
+            </Box>
+            <Box
+                display="flex"
+                alignItems="flex-end"
+                justifyContent="center"
+                mb="7"
+            >
+                {Array(5)
+                    .fill('')
+                    .map((_, i) => (
+                        <StarIcon
+                            key={i}
+                            color={i < rating ? 'teal.500' : 'gray.300'}
+                        />
+                    ))}
+                <Box as="span" ml="2" color="gray.600" fontSize="sm">
+                    {reviewCount} avaliações
                 </Box>
             </Box>
         </Box>

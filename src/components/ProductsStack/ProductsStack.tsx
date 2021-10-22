@@ -19,14 +19,14 @@ export const ProductsStack = ({
             <Grid templateColumns="repeat(4, 1fr)" gap={6} mr="5" ml="5">
                 {products.map((item) => (
                     <Card
-                        key={item._id}
+                        key={item.asin}
                         image={item.imUrl}
-                        title={item.asin}
+                        title={item.title}
                         price={item.price}
                         promotion={item.promotion}
                         discount={item.promotionDiscount}
-                        rating={3.5}
-                        reviewCount={12}
+                        rating={Math.floor(Math.random() * 3) + 1}
+                        reviewCount={Math.floor(Math.random() * 50) + 1}
                     />
                 ))}
             </Grid>
