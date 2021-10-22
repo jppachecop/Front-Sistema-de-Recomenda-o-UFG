@@ -1,46 +1,54 @@
 import { StarIcon } from '@chakra-ui/icons'
-import { Badge, Box, Image } from '@chakra-ui/react'
+import { Badge, Box, Image, Text } from '@chakra-ui/react'
 import React from 'react'
+import { CardInterface } from '../../models/Card/Card'
 
-export const Card = () => {
-    const product = {
-        imageUrl:
-            'https://images-na.ssl-images-amazon.com/images/I/41GZCWFJB1L._AC_SX184_.jpg',
-        imageAlt: 'Echo Dot',
-        title: 'Echo Dot(3° Geração): Smart Speaker',
-        price: '$1,900.00',
-        reviewCount: 34,
-        rating: 4,
-    }
-
+export const Card = ({
+    image,
+    title,
+    price,
+    rating,
+    reviewCount,
+    promotion = false,
+    discount = 0,
+}: CardInterface) => {
     return (
-        <Box
-            maxW="sm"
-            borderWidth="1px"
-            borderRadius="lg"
-            overflow="hidden"
-            ml="7"
-        >
+        <Box borderWidth="1px" borderRadius="lg" overflow="hidden">
             <Box display="flex" justifyContent="center">
-                <Image src={product.imageUrl} alt={product.imageAlt} mt="6" />
+                <Image src={image} alt={image} mt="6" />
             </Box>
 
             <Box p="6">
-                <Box
-                    display="flex"
-                    alignItems="baseline"
-                    justifyContent="center"
-                >
-                    <Badge borderRadius="full" px="2" colorScheme="teal">
-                        Eletrônico
-                    </Badge>
-                </Box>
+                {promotion && (
+                    <Box
+                        display="flex"
+                        alignItems="baseline"
+                        justifyContent="center"
+                    >
+                        <Badge borderRadius="full" px="2" colorScheme="teal">
+                            Promoção!
+                        </Badge>
+                    </Box>
+                )}
 
                 <Box mt="1" fontWeight="semibold" as="h4" lineHeight="tall">
-                    {product.title}
+                    {title}
                 </Box>
 
-                <Box>{product.price}</Box>
+                <Box>
+                    {promotion ? (
+                        <>
+                            <Text as="s" mr="5">
+                                {`U$ ${price}`}
+                            </Text>
+                            <Text as="b">
+                                U$ {(price - discount * price).toFixed(2)}
+                            </Text>
+                        </>
+                    ) : (
+                        <Text>U$ {price}</Text>
+                    )}
+                </Box>
 
                 <Box display="flex" mt="2" alignItems="center">
                     {Array(5)
@@ -48,13 +56,11 @@ export const Card = () => {
                         .map((_, i) => (
                             <StarIcon
                                 key={i}
-                                color={
-                                    i < product.rating ? 'teal.500' : 'gray.300'
-                                }
+                                color={i < rating ? 'teal.500' : 'gray.300'}
                             />
                         ))}
                     <Box as="span" ml="2" color="gray.600" fontSize="sm">
-                        {product.reviewCount} reviews
+                        {reviewCount} avaliações
                     </Box>
                 </Box>
             </Box>

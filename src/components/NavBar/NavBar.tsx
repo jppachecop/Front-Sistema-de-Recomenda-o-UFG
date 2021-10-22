@@ -16,7 +16,7 @@ import {
     Center,
 } from '@chakra-ui/react'
 
-const Links = ['Eletrônicos', 'Livros']
+const Links = ['Livros']
 
 const NavLink = ({ children }: { children: ReactNode }) => (
     <Link

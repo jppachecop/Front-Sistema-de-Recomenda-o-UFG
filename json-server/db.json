@@ -1,0 +1,412 @@
+{
+    "promotions": [
+        {
+            "_id": "611f0f7a141416d6c66080cb",
+            "asin": "B00LV8M74W",
+            "price": 3.99,
+            "promotion": true,
+            "promotionDiscount": 0.1,
+            "imUrl": "http://ecx.images-amazon.com/images/I/51qUjk4bglL._BO2,204,203,200_PIsitb-sticker-v3-big,TopRight,0,-55_SX278_SY278_PIkin4,BottomRight,1,22_AA300_SH20_OU01_.jpg",
+            "categories": [
+                ["Books", "Literature & Fiction", "Genre Fiction", "Medical"],
+                [
+                    "Books",
+                    "Science Fiction & Fantasy",
+                    "Science Fiction",
+                    "Dystopian"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle eBooks",
+                    "Literature & Fiction",
+                    "Genre Fiction",
+                    "Medical"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle eBooks",
+                    "Science Fiction & Fantasy",
+                    "Science Fiction",
+                    "Dystopian"
+                ]
+            ]
+        },
+        {
+            "_id": "611f0f7a141416d6c66080ca",
+            "asin": "B00LV8STE4",
+            "price": 8.99,
+            "promotion": true,
+            "promotionDiscount": 0.1,
+            "imUrl": "http://ecx.images-amazon.com/images/I/51l7MLl%2BljL._BO2,204,203,200_PIsitb-sticker-v3-big,TopRight,0,-55_SX278_SY278_PIkin4,BottomRight,1,22_AA300_SH20_OU01_.jpg",
+            "categories": [
+                [
+                    "Books",
+                    "Arts & Photography",
+                    "Music",
+                    "Musical Genres",
+                    "Jazz"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle eBooks",
+                    "Arts & Photography",
+                    "Music",
+                    "Musical Genres",
+                    "Jazz"
+                ]
+            ]
+        },
+        {
+            "_id": "611f0f7a141416d6c66080c9",
+            "asin": "B00LZFHL7Y",
+            "price": 0.99,
+            "promotion": true,
+            "promotionDiscount": 0.1,
+            "imUrl": "http://ecx.images-amazon.com/images/I/41RDitlHxRL._BO2,204,203,200_PIsitb-sticker-v3-big,TopRight,0,-55_SX278_SY278_PIkin4,BottomRight,1,22_AA300_SH20_OU01_.jpg",
+            "categories": [
+                ["Books", "Literature & Fiction", "Erotica"],
+                [
+                    "Kindle Store",
+                    "Kindle eBooks",
+                    "Literature & Fiction",
+                    "Erotica",
+                    "Humorous"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle eBooks",
+                    "Literature & Fiction",
+                    "Erotica",
+                    "Thrillers"
+                ]
+            ]
+        },
+        {
+            "_id": "611f0f7a141416d6c66080c8",
+            "asin": "B00LZ7WVJ0",
+            "price": 4.79,
+            "promotion": true,
+            "promotionDiscount": 0.1,
+            "imUrl": "http://ecx.images-amazon.com/images/I/41qfvV4WGgL._BO2,204,203,200_PIsitb-sticker-v3-big,TopRight,0,-55_SX278_SY278_PIkin4,BottomRight,1,22_AA300_SH20_OU01_.jpg",
+            "categories": [
+                [
+                    "Books",
+                    "Children's Books",
+                    "Growing Up & Facts of Life",
+                    "Difficult Discussions",
+                    "Abuse"
+                ],
+                [
+                    "Books",
+                    "Children's Books",
+                    "Growing Up & Facts of Life",
+                    "Difficult Discussions",
+                    "Dysfunctional Relationships"
+                ],
+                ["Books", "Literature & Fiction"],
+                [
+                    "Books",
+                    "Mystery, Thriller & Suspense",
+                    "Thrillers & Suspense",
+                    "Psychological Thrillers"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle eBooks",
+                    "Children's eBooks",
+                    "Growing Up & Facts of Life",
+                    "Difficult Discussions",
+                    "Abuse"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle eBooks",
+                    "Children's eBooks",
+                    "Growing Up & Facts of Life",
+                    "Difficult Discussions",
+                    "Dysfunctional Relationships"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle eBooks",
+                    "Mystery, Thriller & Suspense",
+                    "Thrillers",
+                    "Psychological"
+                ]
+            ]
+        }
+    ],
+    "mostSales": [
+        {
+            "_id": "611f0f7a141416d6c66080c7",
+            "asin": "B00M111QCM",
+            "price": 9.99,
+            "promotion": false,
+            "promotionDiscount": 0,
+            "imUrl": "http://ecx.images-amazon.com/images/I/51D8m1mlU%2BL._BO2,204,203,200_PIsitb-sticker-v3-big,TopRight,0,-55_SX278_SY278_PIkin4,BottomRight,1,22_AA300_SH20_OU01_.jpg",
+            "categories": [
+                [
+                    "Books",
+                    "Business & Money",
+                    "Industries & Professions",
+                    "Human Resources & Personnel Management"
+                ],
+                [
+                    "Books",
+                    "Business & Money",
+                    "Management & Leadership",
+                    "Management"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle Short Reads",
+                    "30 minutes (12-21 pages)",
+                    "Business & Money"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle eBooks",
+                    "Business & Money",
+                    "Industries",
+                    "Human Resources & Personnel Management"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle eBooks",
+                    "Business & Money",
+                    "Management & Leadership",
+                    "Management",
+                    "Human Resources & Personnel Management"
+                ]
+            ]
+        },
+        {
+            "_id": "611f0f7a141416d6c66080c6",
+            "asin": "B00M0AEPXG",
+            "price": 10.99,
+            "promotion": false,
+            "promotionDiscount": 0,
+            "imUrl": "http://ecx.images-amazon.com/images/I/51hcXTUeHLL._BO2,204,203,200_PIsitb-sticker-v3-big,TopRight,0,-55_SX278_SY278_PIkin4,BottomRight,1,22_AA300_SH20_OU01_.jpg",
+            "categories": [
+                ["Books", "Politics & Social Sciences", "Women's Studies"],
+                ["Books", "Self-Help", "Happiness"],
+                [
+                    "Kindle Store",
+                    "Kindle Short Reads",
+                    "Two hours or more (65-100 pages)",
+                    "Self-Help"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle eBooks",
+                    "Politics & Social Sciences",
+                    "Women's Studies"
+                ],
+                ["Kindle Store", "Kindle eBooks", "Self-Help", "Happiness"]
+            ]
+        },
+        {
+            "_id": "611f0f7a141416d6c66080c5",
+            "asin": "B00M029T4O",
+            "price": 0.99,
+            "promotion": false,
+            "promotionDiscount": 0,
+            "imUrl": "http://ecx.images-amazon.com/images/I/51VgLCQwgXL._BO2,204,203,200_PIsitb-sticker-v3-big,TopRight,0,-55_SX278_SY278_PIkin4,BottomRight,1,22_AA300_SH20_OU01_.jpg",
+            "categories": [
+                ["Books", "Literature & Fiction"],
+                ["Books", "Romance", "Contemporary"],
+                ["Kindle Store", "Kindle eBooks", "Romance", "Contemporary"]
+            ]
+        },
+        {
+            "_id": "611f0f7a141416d6c66080c4",
+            "asin": "B00M01MFQ4",
+            "price": 1.99,
+            "promotion": false,
+            "promotionDiscount": 0,
+            "imUrl": "http://ecx.images-amazon.com/images/I/51apIiaQNrL._BO2,204,203,200_PIsitb-sticker-v3-big,TopRight,0,-55_SX278_SY278_PIkin4,BottomRight,1,22_AA300_SH20_OU01_.jpg",
+            "categories": [
+                [
+                    "Books",
+                    "Literature & Fiction",
+                    "Genre Fiction",
+                    "Horror",
+                    "Dark Fantasy"
+                ],
+                ["Books", "Science Fiction & Fantasy", "Fantasy"],
+                [
+                    "Kindle Store",
+                    "Kindle eBooks",
+                    "Literature & Fiction",
+                    "Horror",
+                    "Dark Fantasy"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle eBooks",
+                    "Science Fiction & Fantasy",
+                    "Fantasy"
+                ]
+            ]
+        },
+        {
+            "_id": "611f0f7a141416d6c66080c3",
+            "asin": "B00LXG8TXA",
+            "price": 3.99,
+            "promotion": false,
+            "promotionDiscount": 0,
+            "imUrl": "http://ecx.images-amazon.com/images/I/51zU9%2BlL8nL._BO2,204,203,200_PIsitb-sticker-v3-big,TopRight,0,-55_SX278_SY278_PIkin4,BottomRight,1,22_AA300_SH20_OU01_.jpg",
+            "categories": [
+                ["Books", "Business & Money", "Accounting", "International"],
+                [
+                    "Books",
+                    "Business & Money",
+                    "Industries & Professions",
+                    "Insurance",
+                    "Risk Management"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle Short Reads",
+                    "90 minutes (44-64 pages)",
+                    "Business & Money"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle eBooks",
+                    "Business & Money",
+                    "Accounting",
+                    "International"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle eBooks",
+                    "Business & Money",
+                    "Industries",
+                    "Insurance",
+                    "Risk Management"
+                ]
+            ]
+        },
+        {
+            "_id": "611f0f7a141416d6c66080c2",
+            "asin": "B00M1336U0",
+            "price": 1.99,
+            "promotion": false,
+            "promotionDiscount": 0,
+            "imUrl": "http://ecx.images-amazon.com/images/I/511z6GqRoQL._BO2,204,203,200_PIsitb-sticker-v3-big,TopRight,0,-55_SX278_SY278_PIkin4,BottomRight,1,22_AA300_SH20_OU01_.jpg",
+            "description": "",
+            "categories": [
+                [
+                    "Books",
+                    "Business & Money",
+                    "Personal Finance",
+                    "Budgeting & Money Management"
+                ],
+                ["Books", "Self-Help", "Success"],
+                [
+                    "Kindle Store",
+                    "Kindle Short Reads",
+                    "Two hours or more (65-100 pages)",
+                    "Business & Money"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle Short Reads",
+                    "Two hours or more (65-100 pages)",
+                    "Self-Help"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle eBooks",
+                    "Business & Money",
+                    "Personal Finance",
+                    "Budgeting & Money Management",
+                    "Money Management"
+                ],
+                ["Kindle Store", "Kindle eBooks", "Self-Help"]
+            ]
+        },
+        {
+            "_id": "611f0f7a141416d6c66080c1",
+            "asin": "B00LXJGKD8",
+            "price": 0.99,
+            "promotion": false,
+            "promotionDiscount": 0,
+            "imUrl": "http://ecx.images-amazon.com/images/I/51uDffBEFHL._BO2,204,203,200_PIsitb-sticker-v3-big,TopRight,0,-55_SX278_SY278_PIkin4,BottomRight,1,22_AA300_SH20_OU01_.jpg",
+            "categories": [
+                ["Books", "Literature & Fiction"],
+                [
+                    "Books",
+                    "Science Fiction & Fantasy",
+                    "Science Fiction",
+                    "Adventure"
+                ],
+                [
+                    "Books",
+                    "Science Fiction & Fantasy",
+                    "Science Fiction",
+                    "Military"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle eBooks",
+                    "Science Fiction & Fantasy",
+                    "Science Fiction",
+                    "Adventure"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle eBooks",
+                    "Science Fiction & Fantasy",
+                    "Science Fiction",
+                    "Military",
+                    "Space Fleet"
+                ]
+            ]
+        },
+        {
+            "_id": "611f0f7a141416d6c66080c0",
+            "asin": "B00LZ1YI4C",
+            "price": 14.99,
+            "promotion": false,
+            "promotionDiscount": 0,
+            "imUrl": "http://ecx.images-amazon.com/images/I/51I7Zf8n%2BxL._BO2,204,203,200_PIsitb-sticker-v3-big,TopRight,0,-55_SX278_SY278_PIkin4,BottomRight,1,22_AA300_SH20_OU01_.jpg",
+            "categories": [
+                [
+                    "Books",
+                    "Children's Books",
+                    "Science Fiction & Fantasy",
+                    "Fantasy & Magic"
+                ],
+                [
+                    "Books",
+                    "Children's Books",
+                    "Science Fiction & Fantasy",
+                    "Spine-Chilling Horror"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle eBooks",
+                    "Children's eBooks",
+                    "Science Fiction, Fantasy & Scary Stories",
+                    "Fantasy & Magic",
+                    "Coming of Age"
+                ],
+                [
+                    "Kindle Store",
+                    "Kindle eBooks",
+                    "Children's eBooks",
+                    "Science Fiction, Fantasy & Scary Stories",
+                    "Fantasy & Magic",
+                    "Sword & Sorcery"
+                ]
+            ]
+        }
+    ],
+    "recommendList": {
+        "message": null,
+        "hash": "ERR4c06712cb2a17418271c7f3181b334ce",
+        "value": "TRUE"
+    }
+}
