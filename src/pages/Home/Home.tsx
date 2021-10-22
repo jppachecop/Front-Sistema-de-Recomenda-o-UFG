@@ -33,10 +33,12 @@ export const Home = () => {
                 <ProductsStack
                     divider="Em Promoção"
                     products={promotionProducts}
+                    detailsScreen={false}
                 />
                 <ProductsStack
                     divider="Mais Vendidos"
                     products={mostSalesProducts}
+                    detailsScreen={false}
                 />
             </Grid>
         </Box>

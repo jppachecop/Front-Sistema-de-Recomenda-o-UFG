@@ -7,5 +7,5 @@ export interface CardInterface {
     discount?: number
     rating: number
     reviewCount: number
-    onClick?: VoidFunction
+    detailsScreen: boolean
 }

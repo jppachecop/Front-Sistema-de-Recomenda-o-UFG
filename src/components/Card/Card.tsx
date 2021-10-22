@@ -1,8 +1,24 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 import { StarIcon } from '@chakra-ui/icons'
 import { Badge, Box, Image, Text } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
 import { CardInterface } from '../../models/Card/Card'
+
+interface Props {
+    detailsScreen: boolean
+    children: ReactNode
+    asin: string
+}
+
+const CardWithLink = ({ detailsScreen, children, asin }: Props) => {
+    return detailsScreen ? (
+        <>{children}</>
+    ) : (
+        <Link to={`/productDetails?book=${asin}`} id="click-me">
+            {children}
+        </Link>
+    )
+}
 
 export const Card = ({
     asin,
@@ -13,9 +29,10 @@ export const Card = ({
     reviewCount,
     promotion = false,
     discount = 0,
-}: CardInterface) => {
-    return (
-        <Link to={`/productDetails?book=${asin}`} id="click-me">
+    detailsScreen = true,
+}: CardInterface) => (
+    <CardWithLink asin={asin} detailsScreen={detailsScreen}>
+        {
             <Box borderWidth="1px" borderRadius="lg" overflow="hidden">
                 <Box display="flex" justifyContent="center">
                     <Image src={image} alt={image} mt="6" h="80" />
@@ -81,6 +98,6 @@ export const Card = ({
                     </Box>
                 </Box>
             </Box>
-        </Link>
-    )
-}
+        }
+    </CardWithLink>
+)

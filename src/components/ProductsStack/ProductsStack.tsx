@@ -6,6 +6,7 @@ import { Card } from '../Card/Card'
 export const ProductsStack = ({
     divider,
     products,
+    detailsScreen,
 }: ProductsStackInterface) => {
     return (
         <>
@@ -21,6 +22,7 @@ export const ProductsStack = ({
                     <Card
                         key={item.asin}
                         asin={item.asin}
+                        detailsScreen={detailsScreen}
                         image={item.imUrl}
                         title={item.title}
                         price={item.price}

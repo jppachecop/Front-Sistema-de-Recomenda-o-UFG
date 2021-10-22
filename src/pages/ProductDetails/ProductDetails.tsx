@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 
-import { Box, Text, Grid, Stack, Divider, Image, Badge } from '@chakra-ui/react'
+import { Box, Text, Grid, Stack, Divider, Image } from '@chakra-ui/react'
 import { ColorModeSwitcher } from '../../ColorModeSwitcher'
 import { api } from '../../services/api'
 import { ProductsInterface } from '../../models/Products/Products'
@@ -155,6 +155,7 @@ export const ProductDetails = () => {
                 <ProductsStack
                     divider="Recomendados para você"
                     products={recommendedProducts}
+                    detailsScreen={true}
                 />
             </Grid>
         </Box>
