@@ -17,7 +17,7 @@ export const ProductsStack = ({
                 <Divider orientation="horizontal" />
             </Stack>
 
-            <Grid templateColumns="repeat(4, 1fr)" gap={6} mr="5" ml="5">
+            <Grid templateColumns="repeat(5, 1fr)" gap={6} mr="5" ml="5">
                 {products.map((item) => (
                     <Card
                         key={item.asin}

@@ -35,7 +35,7 @@ export const Card = ({
         {
             <Box borderWidth="1px" borderRadius="lg" overflow="hidden">
                 <Box display="flex" justifyContent="center">
-                    <Image src={image} alt={image} mt="6" h="80" />
+                    <Image src={image} alt={image} mt="6" h="40" />
                 </Box>
 
                 <Box p="6">
@@ -58,7 +58,7 @@ export const Card = ({
                     <Box
                         mt="1"
                         fontWeight="semibold"
-                        fontSize="18px"
+                        fontSize="14px"
                         lineHeight="tall"
                     >
                         {title}
@@ -94,7 +94,10 @@ export const Card = ({
                             />
                         ))}
                     <Box as="span" ml="2" color="gray.600" fontSize="sm">
-                        {reviewCount} avaliações
+                        {!promotion
+                            ? Math.floor(Math.random() * (150 - 85 + 1)) + 85
+                            : reviewCount}{' '}
+                        avaliações
                     </Box>
                 </Box>
             </Box>

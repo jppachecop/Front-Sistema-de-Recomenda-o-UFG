@@ -91,13 +91,8 @@ export const NavBar = () => {
                                     </Center>
                                     <br />
                                     <Center>
-                                        <p>Username</p>
+                                        <p>João</p>
                                     </Center>
-                                    <br />
-                                    <MenuDivider />
-                                    <MenuItem>João</MenuItem>
-                                    <MenuItem>Paulo</MenuItem>
-                                    <MenuItem>Felipe</MenuItem>
                                 </MenuList>
                             </Menu>
                         </Stack>
